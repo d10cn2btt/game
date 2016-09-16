@@ -1,0 +1,27 @@
+.game-container {
+  width: 90vmin;
+  height: 90vmin;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+$sizeTable: 20;
+.cell {
+  width: 1/$sizeTable*100%;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+
+.row {
+  height: 1/$sizeTable*100%;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.row:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.piece {
+  height: 100%;
+}
